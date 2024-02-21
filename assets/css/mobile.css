@@ -47,3 +47,14 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+
+
+  .hobbie-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10%;
+  }
+
+  .hobbie-grid div img {
+    filter: invert(100%);
+  }
